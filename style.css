@@ -1,0 +1,14 @@
+
+
+.selectBox {
+  display: inline-block;
+}
+
+.symbolDiv, .heightDiv {
+  margin: .5em;
+}
+
+input {
+  display: block;
+  margin: .5em;
+}
