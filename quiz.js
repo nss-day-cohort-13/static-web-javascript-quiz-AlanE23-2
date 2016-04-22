@@ -26,7 +26,7 @@ willisTField.addEventListener("keypress", enterKey);
 
 function enterKey (e) {
   var pressKey = e.keyCode;
-  if (pressKey==13) {
+  if (pressKey===13) {
     middle();
   }
 }
@@ -40,6 +40,8 @@ function middle () {
 }
 
 function submitB (peyton) {
+
+  tree = "";
 
   if (peyton.prince === "" || peyton.willisT === "") {
     alert("Please enter a valid input");
