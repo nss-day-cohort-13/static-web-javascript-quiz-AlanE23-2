@@ -44,7 +44,17 @@ function submitB (peyton) {
   tree = "";
 
   if (peyton.prince === "" || peyton.willisT === "") {
-    alert("Please enter a valid input");
+    alert("Please enter a valid input, thank you.");
+    return;
+  }
+
+  if (peyton.prince.length > 1) {
+    alert("Please only use one symbol, thank you.")
+    return;
+  }
+
+  if (isNaN(peyton.willisT)) {
+    alert("Please enter a number, thank you.")
     return;
   }
 
